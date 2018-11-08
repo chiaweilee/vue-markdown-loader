@@ -1,6 +1,6 @@
 {
   "name": "@chiaweilee/vue-markdown-loader",
-  "version": "2.4.1-i18n",
+  "version": "2.4.1-I18n",
   "description": "markdown file to vue component loader.",
   "main": "index.js",
   "repository": {
