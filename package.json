@@ -1,11 +1,16 @@
 {
   "name": "@chiaweilee/vue-markdown-loader",
-  "version": "2.4.1-I18n",
+  "version": "2.5.0-alpha",
   "description": "markdown file to vue component loader.",
-  "main": "index.js",
+  "main": "lib/loader.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chiaweilee/vue-markdown-loader.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js lib --fix",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "keywords": [
     "vue",
@@ -24,19 +29,11 @@
     "vue-loader": ">=10.0.0"
   },
   "devDependencies": {
+    "@vue/eslint-config-standard": "^3.0.5",
     "babel-core": "^6.17.0",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^7.1.3",
-    "babel-preset-es2015": "^6.16.0",
-    "css-loader": "^0.25.0",
-    "github-markdown-css": "^2.3.0",
-    "style-loader": "^0.13.1",
-    "vue": "^2.0.3",
-    "vue-loader": "^12.1.0",
-    "vue-template-compiler": "^2.3.3",
-    "webpack": "^2.6.0",
-    "webpack-dev-server": "^2.4.5"
-  },
-  "__npminstall_done": "Thu Nov 08 2018 11:00:55 GMT+0800 (China Standard Time)",
-  "_from": "@chiaweilee/vue-markdown-loader@2.4.1-highlight",
-  "_resolved": "http://registry.npm.taobao.org/@chiaweilee/vue-markdown-loader/download/@chiaweilee/vue-markdown-loader-2.4.1-highlight.tgz"
+    "eslint": "^5.9.0",
+    "eslint-plugin-vue": "^4.7.1"
+  }
 }
