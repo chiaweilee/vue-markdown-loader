@@ -1,5 +1,7 @@
 ## @chiaweilee/vue-markdown-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chiaweilee/vue-markdown-loader.svg)](https://greenkeeper.io/)
+
 <a href="https://npmcharts.com/compare/@chiaweilee/vue-markdown-loader?minimal=true"><img src="https://img.shields.io/npm/dm/@chiaweilee/vue-markdown-loader.svg" alt="Downloads"></a>
 <a href="https://www.npmjs.com/package/@chiaweilee/vue-markdown-loader"><img src="https://img.shields.io/npm/v/@chiaweilee/vue-markdown-loader.svg" alt="Version"></a>
 <a href="https://www.npmjs.com/package/@chiaweilee/vue-markdown-loader"><img src="https://img.shields.io/npm/l/@chiaweilee/vue-markdown-loader.svg" alt="License"></a>
